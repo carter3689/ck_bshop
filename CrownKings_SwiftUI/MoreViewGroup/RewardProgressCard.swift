@@ -29,6 +29,7 @@ struct RewardProgressCard: View {
 
     
     @EnvironmentObject var viewModel: AuthenticationViewModel
+    @Environment(\.colorScheme) var colorScheme
     
     @StateObject private var loyaltyViewModel = LoyaltyViewModel()
     
@@ -64,16 +65,18 @@ struct RewardProgressCard: View {
                 }
                 .disabled( _currentProgress < _totalProgress)
                 .buttonStyle(.borderedProminent)
+                .foregroundStyle(colorScheme == .dark ? .black : .white)
                 HStack {
                     Text(title)
                         .font(.headline) //Style the title
+                        .foregroundStyle(colorScheme == .dark ? .black : .black)
                     Spacer()
                 }
             }
             ProgressBar(width:300, height:40, percent: percent, color1: _color, color2: _color2)
             Text("\(_currentProgress) of \(_totalProgress)")
                 .font(.caption)
-                .foregroundColor(.secondary)
+                .foregroundColor(colorScheme == .dark ? .black : .secondary)
         }
         .padding()
         .background(

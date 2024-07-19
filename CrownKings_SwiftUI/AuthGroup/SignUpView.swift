@@ -7,6 +7,8 @@
 
 import SwiftUI
 import Combine
+import AuthenticationServices
+
 
 private enum FocusableField: Hashable {
     case email
@@ -24,6 +26,14 @@ struct SignUpView: View {
     private func signUpWithEmailPassword() {
         Task {
             if await viewModel.signUpWithEmailPassword() == true {
+                dismiss()
+            }
+        }
+    }
+    
+    private func signInWithGoogle() {
+        Task{
+            if await viewModel.signInWithGoogle() == true {
                 dismiss()
             }
         }
@@ -157,25 +167,15 @@ struct SignUpView: View {
                     
 
                 }
-                .offset(y:-40)
+                .offset(y:-60)
                 
                 ZStack{
                     LazyVGrid (columns: [
                         GridItem(.flexible()),
                         GridItem(.flexible()),
-                        GridItem(.flexible()),
                     ], spacing: 16, content:{
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                            Image("facebook-circle-fill")
-                                .foregroundStyle(.blue)
-                                .font(.system(size: 32))
-                        })
-                        .buttonStyle(.bordered)
-                        .controlSize(.large)
-                        .tint(.gray.opacity(0.4))
-                        .buttonBorderShape(.roundedRectangle(radius: 8))
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                        Button(action: signInWithGoogle , label: {
                             Image("google-color-logo-icon-48.SFSymbol")
                                 .symbolRenderingMode(.palette)
                                 .foregroundStyle(.red, .yellow, .blue)
@@ -185,17 +185,19 @@ struct SignUpView: View {
                         .controlSize(.large)
                         .tint(.gray.opacity(0.4))
                         .buttonBorderShape(.roundedRectangle(radius: 8))
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                            Image(systemName: "apple.logo")
-                                .foregroundStyle(.black)
-                                .font(.system(size: 32))
-                        })
-                        .buttonStyle(.bordered)
-                        .controlSize(.large)
-                        .tint(.gray.opacity(0.4))
-                        .buttonBorderShape(.roundedRectangle(radius: 8))
+                        
+                        SignInWithAppleButton{request in
+                            viewModel.handleSignInWithAppleRequest(request)
+                            print("Started")
+                        } onCompletion: { result in
+                            viewModel.handleSignInWithAppleCompletion(result)
+                            if case .success(_) = result {  print("Completed") }
+                            
+                        }
+                        .frame(width:56, height: 56)
+                        .signInWithAppleButtonStyle(.black)
                     })
-                }.offset(y:-35)
+                }.offset(y:-75)
                 
                 HStack{
                     Text("Already have an account?")

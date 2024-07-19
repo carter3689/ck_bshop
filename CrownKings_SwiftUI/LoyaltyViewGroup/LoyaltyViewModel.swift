@@ -11,7 +11,7 @@ import FirebaseFirestore
 
 final class LoyaltyViewModel: ObservableObject {
     
-    @Published var title: String = "Monthly Loyalty Streak"
+    @Published var title: String = "Loyalty"
     @Published  var percent: CGFloat = 0
     @Published var showSheet: Bool = false
     @Published var _currentProgress: Int = 0

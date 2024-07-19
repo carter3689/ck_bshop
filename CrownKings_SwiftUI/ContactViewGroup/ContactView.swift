@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContactView: View {
     @Environment(\.openURL) private var openURL
+    @Environment(\.colorScheme) var colorScheme
     @State var toLat: String = ""
     @State var toLong: String = ""
     
@@ -33,8 +34,8 @@ struct ContactView: View {
                             .font(.largeTitle)
                             .padding(.horizontal,22.0)
                         .frame(height:92.0)
-                        .foregroundColor(.white)
-                        .background(.black)
+                        .foregroundColor(colorScheme == .dark ? .black : .white)
+                        .background(colorScheme == .dark ? .white : .black)
                         .cornerRadius(8)
                     }
                     .tint(.black)
@@ -57,11 +58,11 @@ struct ContactView: View {
                         }
                         .padding(.horizontal,22.0)
                         .frame(height:92.0)
-                        .foregroundColor(.white)
-                        .background(.black)
+                        .foregroundColor(colorScheme == .dark ? .black : .white)
+                        .background(colorScheme == .dark ? .white : .black)
                         .cornerRadius(8)
                     }
-                    .tint(.black)
+                    .tint(colorScheme == .dark ? .black : .black)
                     .buttonStyle(.plain)
                     .offset(y:-60)
                 }

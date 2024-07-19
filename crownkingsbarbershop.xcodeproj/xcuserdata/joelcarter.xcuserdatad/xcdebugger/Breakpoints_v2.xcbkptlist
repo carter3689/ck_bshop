@@ -62,8 +62,8 @@
             filePath = "CrownKings_SwiftUI/AuthGroup/LoginView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "173"
-            endingLineNumber = "173"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -78,8 +78,8 @@
             filePath = "CrownKings_SwiftUI/AuthGroup/LoginView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "174"
-            endingLineNumber = "174"
+            startingLineNumber = "164"
+            endingLineNumber = "164"
             landmarkName = "body"
             landmarkType = "24">
             <Locations>
@@ -126,74 +126,10 @@
             filePath = "CrownKings_SwiftUI/AuthGroup/LoginView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "172"
-            endingLineNumber = "172"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
             landmarkName = "body"
             landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A33AA3D5-B024-4F2C-93D0-A173A063EA97"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CrownKings_SwiftUI/LoyaltyViewGroup/LoyaltyView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "136"
-            endingLineNumber = "136"
-            landmarkName = "body"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "73A7DFFD-C2CC-4FD3-B64C-29CBD628D109"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CrownKings_SwiftUI/LoyaltyViewGroup/LoyaltyView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "139"
-            endingLineNumber = "139"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "73A7DFFD-C2CC-4FD3-B64C-29CBD628D109 - f02976d168fd6617"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #3 () -&gt; () in crownkingsbarbershop.LoyaltyView.body.getter : some"
-                  moduleName = "crownkingsbarbershop"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joelcarter/Documents/personaldocs/iOS_dev/CrownKings_SwiftUI/CrownKings_SwiftUI/LoyaltyViewGroup/LoyaltyView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "202"
-                  endingLineNumber = "202"
-                  offsetFromSymbolStart = "204">
-               </Location>
-               <Location
-                  uuid = "73A7DFFD-C2CC-4FD3-B64C-29CBD628D109 - f02976d168fd66d5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #3 () -&gt; () in crownkingsbarbershop.LoyaltyView.body.getter : some"
-                  moduleName = "crownkingsbarbershop"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joelcarter/Documents/personaldocs/iOS_dev/CrownKings_SwiftUI/CrownKings_SwiftUI/LoyaltyViewGroup/LoyaltyView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "200"
-                  endingLineNumber = "200"
-                  offsetFromSymbolStart = "152">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

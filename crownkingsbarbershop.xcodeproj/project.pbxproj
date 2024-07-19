@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		87293A092C2857CD00FC98FC /* Rewards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87293A082C2857CD00FC98FC /* Rewards.swift */; };
 		87293A0B2C2866A300FC98FC /* LoyaltyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87293A0A2C2866A300FC98FC /* LoyaltyViewModel.swift */; };
 		87293A0D2C29034900FC98FC /* RewardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87293A0C2C29034900FC98FC /* RewardViewModel.swift */; };
-		87293A122C357FCC00FC98FC /* ButtonClickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87293A112C357FCC00FC98FC /* ButtonClickTests.swift */; };
 		87293A142C35B2D700FC98FC /* VideoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87293A132C35B2D700FC98FC /* VideoViewModel.swift */; };
 		87293A172C35B53800FC98FC /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 87293A162C35B53800FC98FC /* SDWebImageSwiftUI */; };
 		87293A1B2C35D10400FC98FC /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87293A1A2C35D10400FC98FC /* ContentViewModel.swift */; };
@@ -58,10 +56,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		87293A082C2857CD00FC98FC /* Rewards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rewards.swift; sourceTree = "<group>"; };
 		87293A0A2C2866A300FC98FC /* LoyaltyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoyaltyViewModel.swift; sourceTree = "<group>"; };
 		87293A0C2C29034900FC98FC /* RewardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardViewModel.swift; sourceTree = "<group>"; };
-		87293A112C357FCC00FC98FC /* ButtonClickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonClickTests.swift; sourceTree = "<group>"; };
 		87293A132C35B2D700FC98FC /* VideoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewModel.swift; sourceTree = "<group>"; };
 		87293A1A2C35D10400FC98FC /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		87293A1C2C35D64600FC98FC /* VideoUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoUploader.swift; sourceTree = "<group>"; };
@@ -125,7 +121,6 @@
 		87293A072C28578500FC98FC /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				87293A082C2857CD00FC98FC /* Rewards.swift */,
 				8785C9602C38360300537A2D /* Video.swift */,
 			);
 			path = Model;
@@ -134,7 +129,6 @@
 		87293A102C357FAE00FC98FC /* CrownKingsAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				87293A112C357FCC00FC98FC /* ButtonClickTests.swift */,
 			);
 			path = CrownKingsAppTests;
 			sourceTree = "<group>";
@@ -369,11 +363,9 @@
 				87DC7A252BFE25AE003B7983 /* ShareView.swift in Sources */,
 				87CDD1C52C091169006FE201 /* AuthenticationView.swift in Sources */,
 				87DC7A212BFD699D003B7983 /* RewardsView.swift in Sources */,
-				87293A122C357FCC00FC98FC /* ButtonClickTests.swift in Sources */,
 				873CFD3A2BEBAF3400F6E15E /* MoreView.swift in Sources */,
 				87CDD1C92C091753006FE201 /* UserProfileView.swift in Sources */,
 				87293A0D2C29034900FC98FC /* RewardViewModel.swift in Sources */,
-				87293A092C2857CD00FC98FC /* Rewards.swift in Sources */,
 				87DC7A322C01FE4C003B7983 /* SignUpForm.swift in Sources */,
 				87DC7A342C021060003B7983 /* LoginForm.swift in Sources */,
 				8785C9612C38360300537A2D /* Video.swift in Sources */,

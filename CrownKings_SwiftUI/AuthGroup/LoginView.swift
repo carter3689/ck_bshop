@@ -145,17 +145,7 @@ struct LoginView: View {
                     LazyVGrid (columns: [
                         GridItem(.flexible()),
                         GridItem(.flexible()),
-                        GridItem(.flexible()),
                     ], spacing: 16, content:{
-                        Button(action: {}, label: {
-                            Image("facebook-circle-fill")
-                                .foregroundStyle(.blue)
-                                .font(.system(size: 32))
-                        })
-                        .buttonStyle(.bordered)
-                        .controlSize(.large)
-                        .tint(.gray.opacity(0.4))
-                        .buttonBorderShape(.roundedRectangle(radius: 8))
                         
                         Button(action: signInWithGoogle , label: {
                             Image("google-color-logo-icon-48.SFSymbol")

@@ -155,14 +155,7 @@ struct GalleryView: View {
     func setIndex(index: Int) {
         isIndex = index
     }
-    
-//    func showLargeImage(index: Int, showSheet: Binding<Bool>){
-//        let photoIndex = index
-//        
-//        if photoIndex == index{
-//            showSheet.toggle
-//        }
-//    }
+
     var body: some View {
         NavigationView {
             ScrollView {

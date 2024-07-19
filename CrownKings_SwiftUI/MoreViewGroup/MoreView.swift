@@ -10,8 +10,7 @@ import SwiftUI
 struct MoreView: View {
     var moreItems: [MoreItem] = [
         .init(mainText: "Share With Friends", subText: "Earn More rewards",viewDisplay: "ShareView"),
-        .init(mainText: "Account", subText: "Manage Your Account", viewDisplay: "AccountView"),
-        .init(mainText: "Videos", subText: "",viewDisplay: "VideosView")
+        .init(mainText: "Account", subText: "Manage Your Account", viewDisplay: "AccountView")
     ]
     
     
@@ -36,8 +35,6 @@ struct MoreView: View {
             ShareView()
         case "AccountView":
             UserProfileView()
-        case "VideosView":
-            VideosView()
         default:
             MoreView()
         }

@@ -16,6 +16,7 @@ let CrownKingsMainPhoto = Image("crown_kings_main_photo")
 
 struct HomeView: View {
     @Environment(\.openURL) private var openURL
+    @Environment(\.colorScheme) var colorScheme
     
     var body: some View {
         NavigationStack{
@@ -39,15 +40,16 @@ struct HomeView: View {
                             .font(.largeTitle)
                             .padding(.horizontal,22.0)
                         .frame(height:92.0)
-                        .foregroundColor(.white)
-                        .background(.black)
+                        .foregroundColor(colorScheme == .dark ? .black : .white)
+                        .background(colorScheme == .dark ? .white : .black)
                         .cornerRadius(8)
                     }
-                    .tint(.black)
+                    .tint(colorScheme == .dark ? .white : .black)
                     .buttonStyle(.plain)
                     .offset(y:-60)
                 }
             }
+            .backgroundStyle(colorScheme == .dark ? .black : .white)
 
         }
     }

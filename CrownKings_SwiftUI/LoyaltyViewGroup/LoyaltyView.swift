@@ -41,6 +41,8 @@ struct LoyaltyView: View {
     @EnvironmentObject private var loyaltyViewModel : LoyaltyViewModel
     @EnvironmentObject var rewardsViewModel: RewardViewModel
     
+    @Environment(\.colorScheme) var colorScheme
+    
     @State var rewardRedeemed: [Bool] = [false,false]
     @State var rewardId: [Int] = [1,2]
     
@@ -56,12 +58,12 @@ struct LoyaltyView: View {
                             .offset(y:12)
                         HStack{
                             Text("Welcome")
-                                .foregroundColor(Color.white)
+                                .foregroundColor(colorScheme == .dark ? .black : .white)
                                 .offset(x:-64, y:-55)
                                 .font(.title)
                             ZStack{
                                 Text("\(Int(loyaltyViewModel.currentPoints)) Points")
-                                    .foregroundStyle(Color.white)
+                                    .foregroundStyle(colorScheme == .dark ? .black : .white)
                                     .font(.title)
                             }.offset(x:65, y:-55)
                         }.offset(y:-25)
@@ -77,29 +79,14 @@ struct LoyaltyView: View {
                         
                     }
                 Spacer()
-//                    GeometryReader{ space in
-//                        VStack{
-//                            HStack{
-//                                LazyVGrid (columns: [
-//                                    GridItem(.flexible()),
-//                                    GridItem(.flexible()),
-//                                ], spacing: 16, content:{
-//                                    RewardsCardView(rewardPhoto: "crown_kings_main_photo", rewardText: "10% Off Next Haircut", rewardRedeemed: $rewardRedeemed[0], rewardId: $rewardId[0], costOfReward: 40)
-//                                    RewardsCardView(rewardPhoto: "crown_kings_main_photo", rewardText: "10% Off Next Haircut", rewardRedeemed: $rewardRedeemed[1],rewardId: $rewardId[1], costOfReward: 50)
-//                                })
-//                            }
-//                            .frame(height: space.size.height/1.5.rounded())
-//                            .offset(y:40)
-//                        }
-//                    }
                     Button(action: {
                         loyaltyViewModel.showSheet.toggle()
                     }) {
                         Image(systemName: "plus")
                         Text("Get Stamp")
+                            .foregroundStyle(colorScheme == .dark ? .white : .white)
                     }
                     .buttonStyle(.borderedProminent)
-                    .tint(.black)
                     .offset(x:-105, y:-25)
                     .padding(.horizontal)
                     
@@ -146,6 +133,3 @@ struct LoyaltyView: View {
     }
 }
 
-//#Preview {
-//    LoyaltyView()
-//}
