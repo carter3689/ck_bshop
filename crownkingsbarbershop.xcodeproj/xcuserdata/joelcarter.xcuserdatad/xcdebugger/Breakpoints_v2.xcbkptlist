@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2AA2F2D7-4977-48DA-B928-752D91861706"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9E92D123-EE4F-4839-80FF-D72DAD9A63CF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CrownKings_SwiftUI/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0FFA9EEB-E217-4C1A-B728-3BFF27FD7167"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CrownKings_SwiftUI/AuthGroup/AuthenticationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "206"
+            endingLineNumber = "206"
+            landmarkName = "handleSignInWithAppleRequest(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B65DFABB-1813-42F4-8E4B-27EDDB041150"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CrownKings_SwiftUI/AuthGroup/AuthenticationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "216"
+            endingLineNumber = "216"
+            landmarkName = "handleSignInWithAppleCompletion(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "541E212A-076E-4BB5-9579-EA1D986DDB3B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CrownKings_SwiftUI/AuthGroup/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "173"
+            endingLineNumber = "173"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D2C724A-F4BF-476A-8AC8-BC5D09E11B33"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CrownKings_SwiftUI/AuthGroup/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "7D2C724A-F4BF-476A-8AC8-BC5D09E11B33 - 5032dfad2efc2df7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 (__C.ASAuthorizationAppleIDRequest) -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.buttonBorderShape(SwiftUI.ButtonBorderShape) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.buttonBorderShape(SwiftUI.ButtonBorderShape) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.signInWithAppleButtonStyle(_AuthenticationServices_SwiftUI.SignInWithAppleButton.Style) -&gt; some&gt;&gt;.0)&gt; in closure #3 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.buttonBorderShape(SwiftUI.ButtonBorderShape) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.buttonBorderShape(SwiftUI.ButtonBorderShape) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.signInWithAppleButtonStyle(_AuthenticationServices_SwiftUI.SignInWithAppleButton.Style) -&gt; some&gt;&gt;.0)&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.scrollContentBackground(SwiftUI.Visibility) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.offset(x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.offset(x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.offset(x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.offset(x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.offset(x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarBackButtonHidden(Swift.Bool) -&gt; some&gt;&gt;.0 in crownkingsbarbershop.LoginView.body.getter : some"
+                  moduleName = "crownkingsbarbershop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joelcarter/Documents/personaldocs/iOS_dev/CrownKings_SwiftUI/CrownKings_SwiftUI/AuthGroup/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "174"
+                  endingLineNumber = "174"
+                  offsetFromSymbolStart = "308">
+               </Location>
+               <Location
+                  uuid = "7D2C724A-F4BF-476A-8AC8-BC5D09E11B33 - 229656357475dac2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #5 (Swift.Result&lt;__C.ASAuthorization, Swift.Error&gt;) -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.buttonBorderShape(SwiftUI.ButtonBorderShape) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.buttonBorderShape(SwiftUI.ButtonBorderShape) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.signInWithAppleButtonStyle(_AuthenticationServices_SwiftUI.SignInWithAppleButton.Style) -&gt; some&gt;&gt;.0)&gt; in closure #3 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.buttonBorderShape(SwiftUI.ButtonBorderShape) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.buttonBorderShape(SwiftUI.ButtonBorderShape) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.signInWithAppleButtonStyle(_AuthenticationServices_SwiftUI.SignInWithAppleButton.Style) -&gt; some&gt;&gt;.0)&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.scrollContentBackground(SwiftUI.Visibility) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.offset(x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.offset(x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.offset(x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.offset(x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.offset(x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarBackButtonHidden(Swift.Bool) -&gt; some&gt;&gt;.0 in crownkingsbarbershop.LoginView.body.getter : some"
+                  moduleName = "crownkingsbarbershop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joelcarter/Documents/personaldocs/iOS_dev/CrownKings_SwiftUI/CrownKings_SwiftUI/AuthGroup/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "175"
+                  endingLineNumber = "175"
+                  offsetFromSymbolStart = "140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AEECD810-D905-4D50-9C4F-DCA3199A7CD6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CrownKings_SwiftUI/AuthGroup/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A33AA3D5-B024-4F2C-93D0-A173A063EA97"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CrownKings_SwiftUI/LoyaltyViewGroup/LoyaltyView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73A7DFFD-C2CC-4FD3-B64C-29CBD628D109"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CrownKings_SwiftUI/LoyaltyViewGroup/LoyaltyView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "73A7DFFD-C2CC-4FD3-B64C-29CBD628D109 - f02976d168fd6617"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; () in crownkingsbarbershop.LoyaltyView.body.getter : some"
+                  moduleName = "crownkingsbarbershop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joelcarter/Documents/personaldocs/iOS_dev/CrownKings_SwiftUI/CrownKings_SwiftUI/LoyaltyViewGroup/LoyaltyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "202"
+                  endingLineNumber = "202"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "73A7DFFD-C2CC-4FD3-B64C-29CBD628D109 - f02976d168fd66d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; () in crownkingsbarbershop.LoyaltyView.body.getter : some"
+                  moduleName = "crownkingsbarbershop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joelcarter/Documents/personaldocs/iOS_dev/CrownKings_SwiftUI/CrownKings_SwiftUI/LoyaltyViewGroup/LoyaltyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "200"
+                  endingLineNumber = "200"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "51F63264-2481-49F9-AE3A-089C1A312701"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CrownKings_SwiftUI/LoyaltyViewGroup/RewardsCardView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8EE21C69-53F4-4C2A-8859-6194F492FE46"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CrownKings_SwiftUI/LoyaltyViewGroup/RewardsCardView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "RewardsCardView"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D69E0EF6-69DE-49C3-BF8E-8E4F2BE55182"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CrownKings_SwiftUI/MoreViewGroup/RewardsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "RewardsView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "D69E0EF6-69DE-49C3-BF8E-8E4F2BE55182 - f8173bb964314bee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of crownkingsbarbershop.RewardsView.rewards : Swift.Array&lt;crownkingsbarbershop.Reward&gt;"
+                  moduleName = "crownkingsbarbershop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joelcarter/Documents/personaldocs/iOS_dev/CrownKings_SwiftUI/CrownKings_SwiftUI/MoreViewGroup/RewardsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "D69E0EF6-69DE-49C3-BF8E-8E4F2BE55182 - 2cfedd9d4c78d439"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "crownkingsbarbershop.RewardsView.rewards.getter : Swift.Array&lt;crownkingsbarbershop.Reward&gt;"
+                  moduleName = "crownkingsbarbershop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joelcarter/Documents/personaldocs/iOS_dev/CrownKings_SwiftUI/CrownKings_SwiftUI/MoreViewGroup/RewardsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "D69E0EF6-69DE-49C3-BF8E-8E4F2BE55182 - a53e0274615a18ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "crownkingsbarbershop.RewardsView.rewards.setter : Swift.Array&lt;crownkingsbarbershop.Reward&gt;"
+                  moduleName = "crownkingsbarbershop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joelcarter/Documents/personaldocs/iOS_dev/CrownKings_SwiftUI/CrownKings_SwiftUI/MoreViewGroup/RewardsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "D69E0EF6-69DE-49C3-BF8E-8E4F2BE55182 - 8f264b86a14a5858"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "crownkingsbarbershop.RewardsView.rewards.modify : Swift.Array&lt;crownkingsbarbershop.Reward&gt;"
+                  moduleName = "crownkingsbarbershop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joelcarter/Documents/personaldocs/iOS_dev/CrownKings_SwiftUI/CrownKings_SwiftUI/MoreViewGroup/RewardsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "D69E0EF6-69DE-49C3-BF8E-8E4F2BE55182 - 48b092709cb72974"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "crownkingsbarbershop.RewardsView.rewards.modify : Swift.Array&lt;crownkingsbarbershop.Reward&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "crownkingsbarbershop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joelcarter/Documents/personaldocs/iOS_dev/CrownKings_SwiftUI/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "D69E0EF6-69DE-49C3-BF8E-8E4F2BE55182 - e5ff9ddca0b229a1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "crownkingsbarbershop.RewardsView.$rewards.getter : SwiftUI.Binding&lt;Swift.Array&lt;crownkingsbarbershop.Reward&gt;&gt;"
+                  moduleName = "crownkingsbarbershop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joelcarter/Documents/personaldocs/iOS_dev/CrownKings_SwiftUI/CrownKings_SwiftUI/MoreViewGroup/RewardsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "D69E0EF6-69DE-49C3-BF8E-8E4F2BE55182 - 5542d5e429696a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 0 of crownkingsbarbershop.RewardsView.init(rewards: Swift.Array&lt;crownkingsbarbershop.Reward&gt;) -&gt; crownkingsbarbershop.RewardsView"
+                  moduleName = "crownkingsbarbershop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joelcarter/Documents/personaldocs/iOS_dev/CrownKings_SwiftUI/CrownKings_SwiftUI/MoreViewGroup/RewardsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "55D1B070-75C0-4D6B-AD2E-1D6BE2228CCB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CrownKings_SwiftUI/MoreViewGroup/RewardsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "55D1B070-75C0-4D6B-AD2E-1D6BE2228CCB - 373fa93374946c32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;crownkingsbarbershop.Reward&gt;, crownkingsbarbershop.Reward, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;crownkingsbarbershop.Reward&gt;, crownkingsbarbershop.Reward, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in crownkingsbarbershop.RewardsView.body.getter : some"
+                  moduleName = "crownkingsbarbershop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joelcarter/Documents/personaldocs/iOS_dev/CrownKings_SwiftUI/CrownKings_SwiftUI/MoreViewGroup/RewardsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "55D1B070-75C0-4D6B-AD2E-1D6BE2228CCB - 5fea6c3033da0ac8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (crownkingsbarbershop.Reward) -&gt; &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;crownkingsbarbershop.Reward&gt;, crownkingsbarbershop.Reward, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;crownkingsbarbershop.Reward&gt;, crownkingsbarbershop.Reward, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in crownkingsbarbershop.RewardsView.body.getter : some"
+                  moduleName = "crownkingsbarbershop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joelcarter/Documents/personaldocs/iOS_dev/CrownKings_SwiftUI/CrownKings_SwiftUI/MoreViewGroup/RewardsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "55D1B070-75C0-4D6B-AD2E-1D6BE2228CCB - a8ac8ba25b32587b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;crownkingsbarbershop.RewardViewModel.Reward&gt;, crownkingsbarbershop.RewardViewModel.Reward, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;crownkingsbarbershop.RewardViewModel.Reward&gt;, crownkingsbarbershop.RewardViewModel.Reward, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in crownkingsbarbershop.RewardsView.body.getter : some"
+                  moduleName = "crownkingsbarbershop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joelcarter/Documents/personaldocs/iOS_dev/CrownKings_SwiftUI/CrownKings_SwiftUI/MoreViewGroup/RewardsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "55D1B070-75C0-4D6B-AD2E-1D6BE2228CCB - e6c4236ae1111ff6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (crownkingsbarbershop.RewardViewModel.Reward) -&gt; &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;crownkingsbarbershop.RewardViewModel.Reward&gt;, crownkingsbarbershop.RewardViewModel.Reward, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;crownkingsbarbershop.RewardViewModel.Reward&gt;, crownkingsbarbershop.RewardViewModel.Reward, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in crownkingsbarbershop.RewardsView.body.getter : some"
+                  moduleName = "crownkingsbarbershop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joelcarter/Documents/personaldocs/iOS_dev/CrownKings_SwiftUI/CrownKings_SwiftUI/MoreViewGroup/RewardsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD735753-656C-49CC-BA63-C6C39C354BB8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CrownKings_SwiftUI/MoreViewGroup/RewardsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

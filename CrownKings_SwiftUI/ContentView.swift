@@ -8,14 +8,42 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var tabBarVisibility: Visibility = .visible
+    
+    @EnvironmentObject var viewModel: AuthenticationViewModel
+    @StateObject var loyaltyModel = LoyaltyViewModel()
+    @StateObject var rewardModel = RewardViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+
+        TabView{
+            
+            HomeView()
+                .tabItem({
+                    Label("Home", systemImage: "house")
+                })
+            ContactView()
+                .tabItem({
+                    Label("Contact Us", systemImage: "iphone")
+                })
+            
+            LoyaltyView()
+                .environmentObject(rewardModel)
+                .environmentObject(loyaltyModel)
+                .environmentObject(viewModel)
+                .tabItem({
+                    Label("Loyalty", systemImage: "creditcard")
+                })
+            GalleryView()
+                .tabItem({
+                    Label("Gallery", systemImage: "photo.on.rectangle.angled")
+                })
+            MoreView()
+                .tabItem({
+                    Label("More",systemImage: "ellipsis")
+                })
         }
-        .padding()
+        .toolbar(tabBarVisibility, for: .tabBar)
     }
 }
 
