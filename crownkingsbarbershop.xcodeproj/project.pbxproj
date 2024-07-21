@@ -23,6 +23,8 @@
 		873CFD3A2BEBAF3400F6E15E /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873CFD392BEBAF3400F6E15E /* MoreView.swift */; };
 		8785C9612C38360300537A2D /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8785C9602C38360300537A2D /* Video.swift */; };
 		8785C9632C4A9E7E00537A2D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8785C9622C4A9E7E00537A2D /* .gitignore */; };
+		8785C9662C4AFDD000537A2D /* SplashPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8785C9652C4AFDD000537A2D /* SplashPage.swift */; };
+		8785C9682C4D4BA300537A2D /* CKLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8785C9672C4D4BA300537A2D /* CKLaunchScreen.storyboard */; };
 		87CDD1C32C060881006FE201 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CDD1C22C060881006FE201 /* AuthenticationViewModel.swift */; };
 		87CDD1C52C091169006FE201 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CDD1C42C091169006FE201 /* AuthenticationView.swift */; };
 		87CDD1C72C0912AB006FE201 /* AuthenticatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CDD1C62C0912AB006FE201 /* AuthenticatedView.swift */; };
@@ -72,6 +74,8 @@
 		873CFD392BEBAF3400F6E15E /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
 		8785C9602C38360300537A2D /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		8785C9622C4A9E7E00537A2D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		8785C9652C4AFDD000537A2D /* SplashPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPage.swift; sourceTree = "<group>"; };
+		8785C9672C4D4BA300537A2D /* CKLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CKLaunchScreen.storyboard; sourceTree = "<group>"; };
 		87CDD1C22C060881006FE201 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 		87CDD1C42C091169006FE201 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
 		87CDD1C62C0912AB006FE201 /* AuthenticatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedView.swift; sourceTree = "<group>"; };
@@ -152,6 +156,7 @@
 		873CFD0D2BEB9B4800F6E15E = {
 			isa = PBXGroup;
 			children = (
+				8785C9672C4D4BA300537A2D /* CKLaunchScreen.storyboard */,
 				8785C9622C4A9E7E00537A2D /* .gitignore */,
 				87CDD1D42C0DE44D006FE201 /* crownkingsbarbershop.entitlements */,
 				87CDD1D32C09ED0B006FE201 /* crownkingsbarbershop-Info.plist */,
@@ -171,6 +176,7 @@
 		873CFD182BEB9B4800F6E15E /* CrownKings_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				8785C9642C4AFD5F00537A2D /* SplashPage */,
 				87293A192C35D0E100FC98FC /* ViewModel */,
 				87293A182C35CE5A00FC98FC /* Service */,
 				87293A102C357FAE00FC98FC /* CrownKingsAppTests */,
@@ -247,6 +253,14 @@
 				87293A132C35B2D700FC98FC /* VideoViewModel.swift */,
 			);
 			path = MoreViewGroup;
+			sourceTree = "<group>";
+		};
+		8785C9642C4AFD5F00537A2D /* SplashPage */ = {
+			isa = PBXGroup;
+			children = (
+				8785C9652C4AFDD000537A2D /* SplashPage.swift */,
+			);
+			path = SplashPage;
 			sourceTree = "<group>";
 		};
 		87DC7A302C01FDE9003B7983 /* AuthGroup */ = {
@@ -347,6 +361,7 @@
 				873CFD212BEB9B4A00F6E15E /* Preview Assets.xcassets in Resources */,
 				873CFD1E2BEB9B4A00F6E15E /* Assets.xcassets in Resources */,
 				87CDD1CD2C09EC38006FE201 /* GoogleService-Info.plist in Resources */,
+				8785C9682C4D4BA300537A2D /* CKLaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +374,7 @@
 			files = (
 				87DC7A292BFE2695003B7983 /* AccountView.swift in Sources */,
 				87DC7A2D2C00AADC003B7983 /* RewardsCardView.swift in Sources */,
+				8785C9662C4AFDD000537A2D /* SplashPage.swift in Sources */,
 				87DC7A402C04BB8C003B7983 /* ResetPasswordForm.swift in Sources */,
 				87DC7A252BFE25AE003B7983 /* ShareView.swift in Sources */,
 				87CDD1C52C091169006FE201 /* AuthenticationView.swift in Sources */,
@@ -529,9 +545,12 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "crownkingsbarbershop-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CrownKingsBarbershop;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = CKLaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -560,9 +579,12 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "crownkingsbarbershop-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CrownKingsBarbershop;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = CKLaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
